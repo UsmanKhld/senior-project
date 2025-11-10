@@ -9,7 +9,7 @@ load_dotenv()
 
 API_KEY = os.getenv("CONGRESS_API_KEY")
 BASE_URL = "https://api.congress.gov/v3/bill"
-NUM_BILLS_TO_FETCH = 50
+NUM_BILLS_TO_FETCH = 200
 
 if not API_KEY:
     raise ValueError("API_KEY not found in .env file")
