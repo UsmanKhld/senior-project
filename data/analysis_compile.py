@@ -54,6 +54,42 @@ def print_summary(summary):
     print("\n=========================================\n")
 
 
+def print_correct_high_impact(bills):
+    print("\n===== Correct Predictions With Moderate/Major Impact =====\n")
+
+    if not bills:
+        print("None found.\n")
+        return
+
+    for b in bills:
+        print(f"- {b['bill_number']}: {b['bill_title']}")
+        print(f"    Sector: {b['sector']}")
+        print(f"    Impact: {b['classification']}")
+        print(f"    z-score: {b['z_score']:.2f}\n")
+
+    print(f"Total: {len(bills)} bills\n")
+
+def analyze_correct_high_impact(data):
+    """
+    Returns all bills where:
+    - LLM prediction was correct
+    - AND anomaly classification is moderate or major
+    """
+    high_impact = []
+
+    for x in data:
+        if x["prediction_correctness"] == "correct" and \
+           x["impact_classification"] in ["moderate_anomaly", "major_anomaly"]:
+            high_impact.append({
+                "bill_number": x["bill_number"],
+                "bill_title": x["bill_title"],
+                "sector": x["sector"],
+                "classification": x["impact_classification"],
+                "z_score": x["z_score_deviation"]
+            })
+
+    return high_impact
+
 def plot_anomaly_counts(summary):
     counts = summary["anomaly_counts"]
     labels = list(counts.keys())
@@ -112,6 +148,9 @@ def main():
     summary = compute_summary(data)
 
     print_summary(summary)
+
+    correct_high = analyze_correct_high_impact(data)
+    print_correct_high_impact(correct_high)
 
     print("Generating plots...")
     plot_anomaly_counts(summary)
