@@ -5,9 +5,6 @@ import random
 from dotenv import load_dotenv
 from google import genai
 
-# ==========================
-# 🔧 SETUP
-# ==========================
 load_dotenv()
 API_KEY = os.getenv("GENAI_API_KEY")
 if not API_KEY:
@@ -18,9 +15,6 @@ MODEL = "gemini-2.5-flash-lite"
 INPUT_FILE = "bills_cleaned.json"
 OUTPUT_FILE = "bills_sector_relevant.json"
 
-# ==========================
-# ⚙️ SAFE REQUEST HANDLER
-# ==========================
 def safe_generate_content(prompt, retries=5):
     """Make API request with exponential backoff for network errors"""
     for attempt in range(retries):
@@ -56,9 +50,7 @@ def safe_generate_content(prompt, retries=5):
     print("❌ Skipping bill after repeated failures.")
     return None
 
-# ==========================
-# 🧠 LLM PROMPT TEMPLATE
-# ==========================
+
 def make_prompt(bill):
     return f"""
 You are a policy analyst evaluating whether a U.S. bill has direct implications for specific economic sectors.
@@ -66,9 +58,10 @@ You are a policy analyst evaluating whether a U.S. bill has direct implications 
 Analyze this bill and determine:
 1. Does it have DIRECT policy implications for any sector? (regulations, funding, mandates, restrictions, incentives)
 2. Which sector is MOST affected?
+3. Is the bill likely to have a POSITIVE or NEGATIVE effect on that sector?
 
 Respond ONLY in this exact format:
-RELEVANT, [primary_sector]
+RELEVANT, [primary_sector], [positive|negative]
 OR
 NOT_RELEVANT
 
@@ -83,18 +76,16 @@ Valid sectors (choose ONE):
 
 Examples:
 - "Post office naming" → NOT_RELEVANT
-- "FDA drug approval changes" → RELEVANT, healthcare
-- "Bank reserve requirements" → RELEVANT, finance
-- "Clean energy tax credits" → RELEVANT, energy
+- "FDA drug approval changes" → RELEVANT, healthcare, positive
+- "Bank reserve requirements" → RELEVANT, finance, negative
+- "Clean energy tax credits" → RELEVANT, energy, positive
+- "Oil drilling restrictions" → RELEVANT, energy, negative
 
 Bill title: {bill.get('title', 'Unknown')}
 Bill text (first 4000 chars): {bill.get('text', '')[:4000]}
 
 Your response:"""
 
-# ==========================
-# 🚀 MAIN LOOP
-# ==========================
 def main():
     if not os.path.exists(INPUT_FILE):
         raise FileNotFoundError(f"Missing {INPUT_FILE}")
@@ -149,9 +140,5 @@ def main():
     print(f"   ({len(relevant_bills)/len(bills)*100:.1f}% of total bills)")
     print(f"{'='*60}")
 
-# ==========================
-# 🏁 RUN
-# ==========================
 if __name__ == "__main__":
     main()
-

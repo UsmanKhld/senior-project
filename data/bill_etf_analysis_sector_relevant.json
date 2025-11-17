@@ -9,7 +9,9 @@
     "price_month_before": 51.78,
     "price_month_after": 52.94,
     "price_change_pct": 2.23,
-    "label": "positive"
+    "predicted_sentiment": "negative",
+    "actual_sentiment": "positive",
+    "prediction_accuracy": "incorrect"
   },
   {
     "bill_number": "1316",
@@ -21,7 +23,9 @@
     "price_month_before": 260.89,
     "price_month_after": 259.52,
     "price_change_pct": -0.53,
-    "label": "neutral"
+    "predicted_sentiment": "positive",
+    "actual_sentiment": "neutral",
+    "prediction_accuracy": "no_effect"
   },
   {
     "bill_number": "423",
@@ -33,19 +37,9 @@
     "price_month_before": 132.0,
     "price_month_after": 135.59,
     "price_change_pct": 2.72,
-    "label": "positive"
-  },
-  {
-    "bill_number": "201",
-    "bill_type": "S",
-    "title": "ACES Act of 2025",
-    "enactment_date": "2025-08-14",
-    "primary_sector": "healthcare",
-    "etf_ticker": "XLV",
-    "price_month_before": 132.0,
-    "price_month_after": 135.59,
-    "price_change_pct": 2.72,
-    "label": "positive"
+    "predicted_sentiment": "negative",
+    "actual_sentiment": "positive",
+    "prediction_accuracy": "incorrect"
   },
   {
     "bill_number": "1815",
@@ -57,7 +51,9 @@
     "price_month_before": 52.2,
     "price_month_after": 52.2,
     "price_change_pct": 0.0,
-    "label": "neutral"
+    "predicted_sentiment": "positive",
+    "actual_sentiment": "neutral",
+    "prediction_accuracy": "no_effect"
   },
   {
     "bill_number": "517",
@@ -69,7 +65,9 @@
     "price_month_before": 51.41,
     "price_month_after": 53.26,
     "price_change_pct": 3.61,
-    "label": "positive"
+    "predicted_sentiment": "positive",
+    "actual_sentiment": "positive",
+    "prediction_accuracy": "correct"
   },
   {
     "bill_number": "4",
@@ -81,7 +79,9 @@
     "price_month_before": 133.17,
     "price_month_after": 135.86,
     "price_change_pct": 2.02,
-    "label": "positive"
+    "predicted_sentiment": "negative",
+    "actual_sentiment": "positive",
+    "prediction_accuracy": "incorrect"
   },
   {
     "bill_number": "1582",
@@ -93,7 +93,9 @@
     "price_month_before": 49.88,
     "price_month_after": 52.22,
     "price_change_pct": 4.68,
-    "label": "positive"
+    "predicted_sentiment": "positive",
+    "actual_sentiment": "positive",
+    "prediction_accuracy": "correct"
   },
   {
     "bill_number": "331",
@@ -105,7 +107,9 @@
     "price_month_before": 134.45,
     "price_month_after": 132.12,
     "price_change_pct": -1.74,
-    "label": "neutral"
+    "predicted_sentiment": "negative",
+    "actual_sentiment": "neutral",
+    "prediction_accuracy": "no_effect"
   },
   {
     "bill_number": "618",
@@ -117,19 +121,23 @@
     "price_month_before": 142.61,
     "price_month_after": 149.79,
     "price_change_pct": 5.04,
-    "label": "positive"
+    "predicted_sentiment": "positive",
+    "actual_sentiment": "positive",
+    "prediction_accuracy": "correct"
   },
   {
     "bill_number": "43",
     "bill_type": "HR",
     "title": "Alaska Native Village Municipal Lands Restoration Act of 2025",
     "enactment_date": "2025-07-07",
-    "primary_sector": "consumer",
-    "etf_ticker": "XLY",
-    "price_month_before": 213.04,
-    "price_month_after": 217.28,
-    "price_change_pct": 1.99,
-    "label": "neutral"
+    "primary_sector": "industrials",
+    "etf_ticker": "XLI",
+    "price_month_before": 143.77,
+    "price_month_after": 148.25,
+    "price_change_pct": 3.12,
+    "predicted_sentiment": "positive",
+    "actual_sentiment": "positive",
+    "prediction_accuracy": "correct"
   },
   {
     "bill_number": "42",
@@ -141,7 +149,9 @@
     "price_month_before": 213.04,
     "price_month_after": 217.28,
     "price_change_pct": 1.99,
-    "label": "neutral"
+    "predicted_sentiment": "positive",
+    "actual_sentiment": "neutral",
+    "prediction_accuracy": "no_effect"
   },
   {
     "bill_number": "1",
@@ -153,19 +163,23 @@
     "price_month_before": 80.6,
     "price_month_after": 85.46,
     "price_change_pct": 6.03,
-    "label": "positive"
+    "predicted_sentiment": "negative",
+    "actual_sentiment": "positive",
+    "prediction_accuracy": "incorrect"
   },
   {
     "bill_number": "31",
     "bill_type": "SJRES",
     "title": "A joint resolution providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Environmental Protection Agency relating to \"Review of Final Rule Reclassification of Major Sources as Area Sources Under Section 112 of the Clean Air Act\".",
     "enactment_date": "2025-06-20",
-    "primary_sector": "energy",
-    "etf_ticker": "XLE",
-    "price_month_before": 80.7,
-    "price_month_after": 85.3,
-    "price_change_pct": 5.7,
-    "label": "positive"
+    "primary_sector": "industrials",
+    "etf_ticker": "XLI",
+    "price_month_before": 140.31,
+    "price_month_after": 143.27,
+    "price_change_pct": 2.11,
+    "predicted_sentiment": "negative",
+    "actual_sentiment": "positive",
+    "prediction_accuracy": "incorrect"
   },
   {
     "bill_number": "13",
@@ -177,19 +191,23 @@
     "price_month_before": 49.95,
     "price_month_after": 50.65,
     "price_change_pct": 1.4,
-    "label": "neutral"
+    "predicted_sentiment": "negative",
+    "actual_sentiment": "neutral",
+    "prediction_accuracy": "no_effect"
   },
   {
     "bill_number": "89",
     "bill_type": "HJRES",
     "title": "Providing congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Environmental Protection Agency relating to \"California State Motor Vehicle and Engine and Nonroad Engine Pollution Control Standards; The 'Omnibus' Low NOX Regulation; Waiver of Preemption; Notice of Decision\".",
     "enactment_date": "2025-06-12",
-    "primary_sector": "energy",
-    "etf_ticker": "XLE",
-    "price_month_before": 84.36,
-    "price_month_after": 86.65,
-    "price_change_pct": 2.72,
-    "label": "positive"
+    "primary_sector": "industrials",
+    "etf_ticker": "XLI",
+    "price_month_before": 140.27,
+    "price_month_after": 141.63,
+    "price_change_pct": 0.97,
+    "predicted_sentiment": "negative",
+    "actual_sentiment": "neutral",
+    "prediction_accuracy": "no_effect"
   },
   {
     "bill_number": "88",
@@ -201,19 +219,23 @@
     "price_month_before": 84.36,
     "price_month_after": 86.65,
     "price_change_pct": 2.72,
-    "label": "positive"
+    "predicted_sentiment": "negative",
+    "actual_sentiment": "positive",
+    "prediction_accuracy": "incorrect"
   },
   {
     "bill_number": "87",
     "bill_type": "HJRES",
     "title": "Providing congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Environmental Protection Agency relating to \"California State Motor Vehicle and Engine Pollution Control Standards; Heavy-Duty Vehicle and Engine Emission Warranty and Maintenance Provisions; Advanced Clean Trucks; Zero Emission Airport Shuttle; Zero-Emission Power Train Certification; Waiver of Preemption; Notice of Decision\".",
     "enactment_date": "2025-06-12",
-    "primary_sector": "energy",
-    "etf_ticker": "XLE",
-    "price_month_before": 84.36,
-    "price_month_after": 86.65,
-    "price_change_pct": 2.72,
-    "label": "positive"
+    "primary_sector": "industrials",
+    "etf_ticker": "XLI",
+    "price_month_before": 140.27,
+    "price_month_after": 141.63,
+    "price_change_pct": 0.97,
+    "predicted_sentiment": "negative",
+    "actual_sentiment": "neutral",
+    "prediction_accuracy": "no_effect"
   },
   {
     "bill_number": "160",
@@ -225,7 +247,9 @@
     "price_month_before": 84.36,
     "price_month_after": 86.65,
     "price_change_pct": 2.72,
-    "label": "positive"
+    "predicted_sentiment": "positive",
+    "actual_sentiment": "positive",
+    "prediction_accuracy": "correct"
   },
   {
     "bill_number": "61",
@@ -237,19 +261,9 @@
     "price_month_before": 125.29,
     "price_month_after": 142.29,
     "price_change_pct": 13.57,
-    "label": "positive"
-  },
-  {
-    "bill_number": "60",
-    "bill_type": "HJRES",
-    "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the National Park Service relating to \"Glen Canyon National Recreation Area: Motor Vehicles\".",
-    "enactment_date": "2025-05-23",
-    "primary_sector": "industrials",
-    "etf_ticker": "XLI",
-    "price_month_before": 125.29,
-    "price_month_after": 142.29,
-    "price_change_pct": 13.57,
-    "label": "positive"
+    "predicted_sentiment": "negative",
+    "actual_sentiment": "positive",
+    "prediction_accuracy": "incorrect"
   },
   {
     "bill_number": "146",
@@ -261,19 +275,23 @@
     "price_month_before": 187.33,
     "price_month_after": 232.98,
     "price_change_pct": 24.37,
-    "label": "positive"
+    "predicted_sentiment": "negative",
+    "actual_sentiment": "positive",
+    "prediction_accuracy": "incorrect"
   },
   {
     "bill_number": "75",
     "bill_type": "HJRES",
     "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Office of Energy Efficiency and Renewable Energy, Department of Energy relating to \"Energy Conservation Program: Energy Conservation Standards for Commercial Refrigerators, Freezers, and Refrigerator-Freezers\".",
     "enactment_date": "2025-05-09",
-    "primary_sector": "energy",
-    "etf_ticker": "XLE",
-    "price_month_before": 81.0,
-    "price_month_after": 83.19,
-    "price_change_pct": 2.7,
-    "label": "positive"
+    "primary_sector": "industrials",
+    "etf_ticker": "XLI",
+    "price_month_before": 125.86,
+    "price_month_after": 139.3,
+    "price_change_pct": 10.68,
+    "predicted_sentiment": "negative",
+    "actual_sentiment": "positive",
+    "prediction_accuracy": "incorrect"
   },
   {
     "bill_number": "42",
@@ -285,7 +303,9 @@
     "price_month_before": 194.78,
     "price_month_after": 211.65,
     "price_change_pct": 8.66,
-    "label": "positive"
+    "predicted_sentiment": "negative",
+    "actual_sentiment": "positive",
+    "prediction_accuracy": "incorrect"
   },
   {
     "bill_number": "28",
@@ -297,7 +317,9 @@
     "price_month_before": 46.91,
     "price_month_after": 50.53,
     "price_change_pct": 7.71,
-    "label": "positive"
+    "predicted_sentiment": "negative",
+    "actual_sentiment": "positive",
+    "prediction_accuracy": "incorrect"
   },
   {
     "bill_number": "24",
@@ -309,7 +331,9 @@
     "price_month_before": 81.0,
     "price_month_after": 83.19,
     "price_change_pct": 2.7,
-    "label": "positive"
+    "predicted_sentiment": "negative",
+    "actual_sentiment": "positive",
+    "prediction_accuracy": "incorrect"
   },
   {
     "bill_number": "20",
@@ -321,7 +345,9 @@
     "price_month_before": 81.0,
     "price_month_after": 83.19,
     "price_change_pct": 2.7,
-    "label": "positive"
+    "predicted_sentiment": "positive",
+    "actual_sentiment": "positive",
+    "prediction_accuracy": "correct"
   },
   {
     "bill_number": "18",
@@ -333,7 +359,9 @@
     "price_month_before": 46.91,
     "price_month_after": 50.53,
     "price_change_pct": 7.71,
-    "label": "positive"
+    "predicted_sentiment": "positive",
+    "actual_sentiment": "positive",
+    "prediction_accuracy": "correct"
   },
   {
     "bill_number": "25",
@@ -345,7 +373,9 @@
     "price_month_before": 47.12,
     "price_month_after": 46.36,
     "price_change_pct": -1.62,
-    "label": "neutral"
+    "predicted_sentiment": "negative",
+    "actual_sentiment": "neutral",
+    "prediction_accuracy": "no_effect"
   },
   {
     "bill_number": "1968",
@@ -357,7 +387,9 @@
     "price_month_before": 144.47,
     "price_month_after": 144.85,
     "price_change_pct": 0.26,
-    "label": "neutral"
+    "predicted_sentiment": "positive",
+    "actual_sentiment": "neutral",
+    "prediction_accuracy": "no_effect"
   },
   {
     "bill_number": "35",
@@ -369,7 +401,9 @@
     "price_month_before": 86.9,
     "price_month_after": 88.99,
     "price_change_pct": 2.41,
-    "label": "positive"
+    "predicted_sentiment": "negative",
+    "actual_sentiment": "positive",
+    "prediction_accuracy": "incorrect"
   },
   {
     "bill_number": "11",
@@ -381,7 +415,9 @@
     "price_month_before": 86.9,
     "price_month_after": 88.99,
     "price_change_pct": 2.41,
-    "label": "positive"
+    "predicted_sentiment": "negative",
+    "actual_sentiment": "positive",
+    "prediction_accuracy": "incorrect"
   },
   {
     "bill_number": "4984",
@@ -393,31 +429,23 @@
     "price_month_before": 137.23,
     "price_month_after": 130.95,
     "price_change_pct": -4.57,
-    "label": "negative"
+    "predicted_sentiment": "positive",
+    "actual_sentiment": "negative",
+    "prediction_accuracy": "incorrect"
   },
   {
     "bill_number": "9592",
     "bill_type": "HR",
     "title": "Federal Register Modernization Act of 2024",
     "enactment_date": "2025-01-04",
-    "primary_sector": "technology",
-    "etf_ticker": "XLK",
-    "price_month_before": 238.4,
-    "price_month_after": 237.63,
-    "price_change_pct": -0.32,
-    "label": "neutral"
-  },
-  {
-    "bill_number": "9076",
-    "bill_type": "HR",
-    "title": "Supporting America\u2019s Children and Families Act",
-    "enactment_date": "2025-01-04",
-    "primary_sector": "technology",
-    "etf_ticker": "XLK",
-    "price_month_before": 238.4,
-    "price_month_after": 237.63,
-    "price_change_pct": -0.32,
-    "label": "neutral"
+    "primary_sector": "industrials",
+    "etf_ticker": "XLI",
+    "price_month_before": 138.79,
+    "price_month_after": 131.08,
+    "price_change_pct": -5.55,
+    "predicted_sentiment": "positive",
+    "actual_sentiment": "negative",
+    "prediction_accuracy": "incorrect"
   },
   {
     "bill_number": "7938",
@@ -429,7 +457,9 @@
     "price_month_before": 89.61,
     "price_month_after": 84.97,
     "price_change_pct": -5.17,
-    "label": "negative"
+    "predicted_sentiment": "positive",
+    "actual_sentiment": "negative",
+    "prediction_accuracy": "incorrect"
   },
   {
     "bill_number": "7365",
@@ -441,7 +471,9 @@
     "price_month_before": 226.06,
     "price_month_after": 225.27,
     "price_change_pct": -0.35,
-    "label": "neutral"
+    "predicted_sentiment": "positive",
+    "actual_sentiment": "neutral",
+    "prediction_accuracy": "no_effect"
   },
   {
     "bill_number": "670",
@@ -453,7 +485,9 @@
     "price_month_before": 142.55,
     "price_month_after": 137.2,
     "price_change_pct": -3.76,
-    "label": "negative"
+    "predicted_sentiment": "positive",
+    "actual_sentiment": "negative",
+    "prediction_accuracy": "incorrect"
   },
   {
     "bill_number": "6492",
@@ -465,7 +499,9 @@
     "price_month_before": 138.79,
     "price_month_after": 131.08,
     "price_change_pct": -5.55,
-    "label": "negative"
+    "predicted_sentiment": "positive",
+    "actual_sentiment": "negative",
+    "prediction_accuracy": "incorrect"
   },
   {
     "bill_number": "6395",
@@ -477,7 +513,9 @@
     "price_month_before": 142.55,
     "price_month_after": 137.2,
     "price_change_pct": -3.76,
-    "label": "negative"
+    "predicted_sentiment": "positive",
+    "actual_sentiment": "negative",
+    "prediction_accuracy": "incorrect"
   },
   {
     "bill_number": "5887",
@@ -489,7 +527,9 @@
     "price_month_before": 238.4,
     "price_month_after": 237.63,
     "price_change_pct": -0.32,
-    "label": "neutral"
+    "predicted_sentiment": "positive",
+    "actual_sentiment": "neutral",
+    "prediction_accuracy": "no_effect"
   },
   {
     "bill_number": "5443",
@@ -501,19 +541,23 @@
     "price_month_before": 138.79,
     "price_month_after": 131.08,
     "price_change_pct": -5.55,
-    "label": "negative"
+    "predicted_sentiment": "positive",
+    "actual_sentiment": "negative",
+    "prediction_accuracy": "incorrect"
   },
   {
     "bill_number": "5103",
     "bill_type": "HR",
     "title": "FISHES Act",
     "enactment_date": "2025-01-04",
-    "primary_sector": "consumer",
-    "etf_ticker": "XLY",
-    "price_month_before": 226.06,
-    "price_month_after": 225.27,
-    "price_change_pct": -0.35,
-    "label": "neutral"
+    "primary_sector": "industrials",
+    "etf_ticker": "XLI",
+    "price_month_before": 138.79,
+    "price_month_after": 131.08,
+    "price_change_pct": -5.55,
+    "predicted_sentiment": "positive",
+    "actual_sentiment": "negative",
+    "prediction_accuracy": "incorrect"
   },
   {
     "bill_number": "4367",
@@ -525,7 +569,9 @@
     "price_month_before": 138.79,
     "price_month_after": 131.08,
     "price_change_pct": -5.55,
-    "label": "negative"
+    "predicted_sentiment": "positive",
+    "actual_sentiment": "negative",
+    "prediction_accuracy": "incorrect"
   },
   {
     "bill_number": "3391",
@@ -537,19 +583,23 @@
     "price_month_before": 142.55,
     "price_month_after": 137.2,
     "price_change_pct": -3.76,
-    "label": "negative"
+    "predicted_sentiment": "positive",
+    "actual_sentiment": "negative",
+    "prediction_accuracy": "incorrect"
   },
   {
     "bill_number": "2997",
     "bill_type": "HR",
     "title": "CONVEY Act",
     "enactment_date": "2025-01-04",
-    "primary_sector": "materials",
-    "etf_ticker": "XLB",
-    "price_month_before": 90.46,
-    "price_month_after": 82.54,
-    "price_change_pct": -8.76,
-    "label": "negative"
+    "primary_sector": "industrials",
+    "etf_ticker": "XLI",
+    "price_month_before": 138.79,
+    "price_month_after": 131.08,
+    "price_change_pct": -5.55,
+    "predicted_sentiment": "positive",
+    "actual_sentiment": "negative",
+    "prediction_accuracy": "incorrect"
   },
   {
     "bill_number": "141",
@@ -561,7 +611,9 @@
     "price_month_before": 144.24,
     "price_month_after": 137.14,
     "price_change_pct": -4.92,
-    "label": "negative"
+    "predicted_sentiment": "positive",
+    "actual_sentiment": "negative",
+    "prediction_accuracy": "incorrect"
   },
   {
     "bill_number": "9566",
@@ -573,7 +625,9 @@
     "price_month_before": 232.12,
     "price_month_after": 239.4,
     "price_change_pct": 3.14,
-    "label": "positive"
+    "predicted_sentiment": "positive",
+    "actual_sentiment": "positive",
+    "prediction_accuracy": "correct"
   },
   {
     "bill_number": "8663",
@@ -585,7 +639,9 @@
     "price_month_before": 232.12,
     "price_month_after": 239.4,
     "price_change_pct": 3.14,
-    "label": "positive"
+    "predicted_sentiment": "positive",
+    "actual_sentiment": "positive",
+    "prediction_accuracy": "correct"
   },
   {
     "bill_number": "8413",
@@ -597,19 +653,9 @@
     "price_month_before": 141.37,
     "price_month_after": 132.79,
     "price_change_pct": -6.06,
-    "label": "negative"
-  },
-  {
-    "bill_number": "8219",
-    "bill_type": "HR",
-    "title": "Lahaina National Heritage Area Study Act",
-    "enactment_date": "2024-12-23",
-    "primary_sector": "consumer",
-    "etf_ticker": "XLY",
-    "price_month_before": 218.46,
-    "price_month_after": 232.92,
-    "price_change_pct": 6.62,
-    "label": "positive"
+    "predicted_sentiment": "positive",
+    "actual_sentiment": "negative",
+    "prediction_accuracy": "incorrect"
   },
   {
     "bill_number": "7872",
@@ -621,7 +667,9 @@
     "price_month_before": 92.28,
     "price_month_after": 82.6,
     "price_change_pct": -10.49,
-    "label": "negative"
+    "predicted_sentiment": "positive",
+    "actual_sentiment": "negative",
+    "prediction_accuracy": "incorrect"
   },
   {
     "bill_number": "759",
@@ -633,7 +681,9 @@
     "price_month_before": 141.37,
     "price_month_after": 132.79,
     "price_change_pct": -6.06,
-    "label": "negative"
+    "predicted_sentiment": "positive",
+    "actual_sentiment": "negative",
+    "prediction_accuracy": "incorrect"
   },
   {
     "bill_number": "7524",
@@ -645,7 +695,23 @@
     "price_month_before": 232.12,
     "price_month_after": 239.4,
     "price_change_pct": 3.14,
-    "label": "positive"
+    "predicted_sentiment": "negative",
+    "actual_sentiment": "positive",
+    "prediction_accuracy": "incorrect"
+  },
+  {
+    "bill_number": "7332",
+    "bill_type": "HR",
+    "title": "Utah State Parks Adjustment Act",
+    "enactment_date": "2024-12-23",
+    "primary_sector": "industrials",
+    "etf_ticker": "XLI",
+    "price_month_before": 141.37,
+    "price_month_after": 132.79,
+    "price_change_pct": -6.06,
+    "predicted_sentiment": "positive",
+    "actual_sentiment": "negative",
+    "prediction_accuracy": "incorrect"
   },
   {
     "bill_number": "7213",
@@ -657,7 +723,9 @@
     "price_month_before": 142.84,
     "price_month_after": 137.49,
     "price_change_pct": -3.74,
-    "label": "negative"
+    "predicted_sentiment": "positive",
+    "actual_sentiment": "negative",
+    "prediction_accuracy": "incorrect"
   },
   {
     "bill_number": "6960",
@@ -669,7 +737,9 @@
     "price_month_before": 142.84,
     "price_month_after": 137.49,
     "price_change_pct": -3.74,
-    "label": "negative"
+    "predicted_sentiment": "positive",
+    "actual_sentiment": "negative",
+    "prediction_accuracy": "incorrect"
   },
   {
     "bill_number": "6829",
@@ -681,7 +751,9 @@
     "price_month_before": 142.84,
     "price_month_after": 137.49,
     "price_change_pct": -3.74,
-    "label": "negative"
+    "predicted_sentiment": "positive",
+    "actual_sentiment": "negative",
+    "prediction_accuracy": "incorrect"
   },
   {
     "bill_number": "663",
@@ -693,7 +765,9 @@
     "price_month_before": 142.84,
     "price_month_after": 137.49,
     "price_change_pct": -3.74,
-    "label": "negative"
+    "predicted_sentiment": "positive",
+    "actual_sentiment": "negative",
+    "prediction_accuracy": "incorrect"
   },
   {
     "bill_number": "5770",
@@ -705,7 +779,9 @@
     "price_month_before": 92.28,
     "price_month_after": 82.6,
     "price_change_pct": -10.49,
-    "label": "negative"
+    "predicted_sentiment": "positive",
+    "actual_sentiment": "negative",
+    "prediction_accuracy": "incorrect"
   },
   {
     "bill_number": "5646",
@@ -717,31 +793,23 @@
     "price_month_before": 218.46,
     "price_month_after": 232.92,
     "price_change_pct": 6.62,
-    "label": "positive"
+    "predicted_sentiment": "negative",
+    "actual_sentiment": "positive",
+    "prediction_accuracy": "incorrect"
   },
   {
-    "bill_number": "5355",
-    "bill_type": "S",
-    "title": "NACIE Improvement Act",
+    "bill_number": "5301",
+    "bill_type": "HR",
+    "title": "Eliminate Useless Reports Act of 2024",
     "enactment_date": "2024-12-23",
-    "primary_sector": "technology",
-    "etf_ticker": "XLK",
-    "price_month_before": 232.12,
-    "price_month_after": 239.4,
-    "price_change_pct": 3.14,
-    "label": "positive"
-  },
-  {
-    "bill_number": "5314",
-    "bill_type": "S",
-    "title": "A bill to designate the medical center of the Department of Veterans Affairs in Tulsa, Oklahoma, as the James Mountain Inhofe VA Medical Center.",
-    "enactment_date": "2024-12-23",
-    "primary_sector": "healthcare",
-    "etf_ticker": "XLV",
-    "price_month_before": 142.84,
-    "price_month_after": 137.49,
-    "price_change_pct": -3.74,
-    "label": "negative"
+    "primary_sector": "industrials",
+    "etf_ticker": "XLI",
+    "price_month_before": 141.37,
+    "price_month_after": 132.79,
+    "price_change_pct": -6.06,
+    "predicted_sentiment": "negative",
+    "actual_sentiment": "negative",
+    "prediction_accuracy": "correct"
   },
   {
     "bill_number": "5009",
@@ -753,7 +821,9 @@
     "price_month_before": 141.37,
     "price_month_after": 132.79,
     "price_change_pct": -6.06,
-    "label": "negative"
+    "predicted_sentiment": "positive",
+    "actual_sentiment": "negative",
+    "prediction_accuracy": "incorrect"
   },
   {
     "bill_number": "4716",
@@ -765,7 +835,9 @@
     "price_month_before": 50.32,
     "price_month_after": 48.49,
     "price_change_pct": -3.64,
-    "label": "negative"
+    "predicted_sentiment": "positive",
+    "actual_sentiment": "negative",
+    "prediction_accuracy": "incorrect"
   },
   {
     "bill_number": "4467",
@@ -777,7 +849,9 @@
     "price_month_before": 141.37,
     "price_month_after": 132.79,
     "price_change_pct": -6.06,
-    "label": "negative"
+    "predicted_sentiment": "negative",
+    "actual_sentiment": "negative",
+    "prediction_accuracy": "correct"
   },
   {
     "bill_number": "4385",
@@ -789,7 +863,9 @@
     "price_month_before": 92.28,
     "price_month_after": 82.6,
     "price_change_pct": -10.49,
-    "label": "negative"
+    "predicted_sentiment": "positive",
+    "actual_sentiment": "negative",
+    "prediction_accuracy": "incorrect"
   },
   {
     "bill_number": "4107",
@@ -801,7 +877,9 @@
     "price_month_before": 141.37,
     "price_month_after": 132.79,
     "price_change_pct": -6.06,
-    "label": "negative"
+    "predicted_sentiment": "positive",
+    "actual_sentiment": "negative",
+    "prediction_accuracy": "incorrect"
   },
   {
     "bill_number": "4094",
@@ -813,7 +891,9 @@
     "price_month_before": 92.28,
     "price_month_after": 82.6,
     "price_change_pct": -10.49,
-    "label": "negative"
+    "predicted_sentiment": "positive",
+    "actual_sentiment": "negative",
+    "prediction_accuracy": "incorrect"
   },
   {
     "bill_number": "3959",
@@ -825,19 +905,9 @@
     "price_month_before": 141.37,
     "price_month_after": 132.79,
     "price_change_pct": -6.06,
-    "label": "negative"
-  },
-  {
-    "bill_number": "3857",
-    "bill_type": "S",
-    "title": "Jamul Indian Village Land Transfer Act",
-    "enactment_date": "2024-12-23",
-    "primary_sector": "consumer",
-    "etf_ticker": "XLY",
-    "price_month_before": 218.46,
-    "price_month_after": 232.92,
-    "price_change_pct": 6.62,
-    "label": "positive"
+    "predicted_sentiment": "positive",
+    "actual_sentiment": "negative",
+    "prediction_accuracy": "incorrect"
   },
   {
     "bill_number": "3801",
@@ -849,7 +919,9 @@
     "price_month_before": 142.84,
     "price_month_after": 137.49,
     "price_change_pct": -3.74,
-    "label": "negative"
+    "predicted_sentiment": "positive",
+    "actual_sentiment": "negative",
+    "prediction_accuracy": "incorrect"
   },
   {
     "bill_number": "3797",
@@ -861,43 +933,51 @@
     "price_month_before": 142.84,
     "price_month_after": 137.49,
     "price_change_pct": -3.74,
-    "label": "negative"
+    "predicted_sentiment": "positive",
+    "actual_sentiment": "negative",
+    "prediction_accuracy": "incorrect"
   },
   {
     "bill_number": "3791",
     "bill_type": "S",
     "title": "America\u2019s Conservation Enhancement Reauthorization Act of 2024",
     "enactment_date": "2024-12-23",
-    "primary_sector": "consumer",
-    "etf_ticker": "XLY",
-    "price_month_before": 218.46,
-    "price_month_after": 232.92,
-    "price_change_pct": 6.62,
-    "label": "positive"
+    "primary_sector": "industrials",
+    "etf_ticker": "XLI",
+    "price_month_before": 141.37,
+    "price_month_after": 132.79,
+    "price_change_pct": -6.06,
+    "predicted_sentiment": "positive",
+    "actual_sentiment": "negative",
+    "prediction_accuracy": "incorrect"
   },
   {
     "bill_number": "3324",
     "bill_type": "HR",
     "title": "To extend the authority to collect Shasta-Trinity Marina fees through fiscal year 2029.",
     "enactment_date": "2024-12-23",
-    "primary_sector": "energy",
-    "etf_ticker": "XLE",
-    "price_month_before": 92.28,
-    "price_month_after": 82.6,
-    "price_change_pct": -10.49,
-    "label": "negative"
+    "primary_sector": "industrials",
+    "etf_ticker": "XLI",
+    "price_month_before": 141.37,
+    "price_month_after": 132.79,
+    "price_change_pct": -6.06,
+    "predicted_sentiment": "positive",
+    "actual_sentiment": "negative",
+    "prediction_accuracy": "incorrect"
   },
   {
     "bill_number": "3254",
     "bill_type": "HR",
     "title": "First Responder Access to Innovative Technologies Act",
     "enactment_date": "2024-12-23",
-    "primary_sector": "technology",
-    "etf_ticker": "XLK",
-    "price_month_before": 232.12,
-    "price_month_after": 239.4,
-    "price_change_pct": 3.14,
-    "label": "positive"
+    "primary_sector": "industrials",
+    "etf_ticker": "XLI",
+    "price_month_before": 141.37,
+    "price_month_after": 132.79,
+    "price_change_pct": -6.06,
+    "predicted_sentiment": "positive",
+    "actual_sentiment": "negative",
+    "prediction_accuracy": "incorrect"
   },
   {
     "bill_number": "2513",
@@ -909,7 +989,9 @@
     "price_month_before": 142.84,
     "price_month_after": 137.49,
     "price_change_pct": -3.74,
-    "label": "negative"
+    "predicted_sentiment": "positive",
+    "actual_sentiment": "negative",
+    "prediction_accuracy": "incorrect"
   },
   {
     "bill_number": "2468",
@@ -921,7 +1003,9 @@
     "price_month_before": 141.37,
     "price_month_after": 132.79,
     "price_change_pct": -6.06,
-    "label": "negative"
+    "predicted_sentiment": "positive",
+    "actual_sentiment": "negative",
+    "prediction_accuracy": "incorrect"
   },
   {
     "bill_number": "2414",
@@ -933,7 +1017,9 @@
     "price_month_before": 141.37,
     "price_month_after": 132.79,
     "price_change_pct": -6.06,
-    "label": "negative"
+    "predicted_sentiment": "positive",
+    "actual_sentiment": "negative",
+    "prediction_accuracy": "incorrect"
   },
   {
     "bill_number": "1607",
@@ -945,7 +1031,9 @@
     "price_month_before": 92.28,
     "price_month_after": 82.6,
     "price_change_pct": -10.49,
-    "label": "negative"
+    "predicted_sentiment": "positive",
+    "actual_sentiment": "negative",
+    "prediction_accuracy": "incorrect"
   },
   {
     "bill_number": "1351",
@@ -957,7 +1045,9 @@
     "price_month_before": 142.84,
     "price_month_after": 137.49,
     "price_change_pct": -3.74,
-    "label": "negative"
+    "predicted_sentiment": "positive",
+    "actual_sentiment": "negative",
+    "prediction_accuracy": "incorrect"
   },
   {
     "bill_number": "1147",
@@ -969,7 +1059,9 @@
     "price_month_before": 218.46,
     "price_month_after": 232.92,
     "price_change_pct": 6.62,
-    "label": "positive"
+    "predicted_sentiment": "positive",
+    "actual_sentiment": "positive",
+    "prediction_accuracy": "correct"
   },
   {
     "bill_number": "10545",
@@ -981,7 +1073,9 @@
     "price_month_before": 141.5,
     "price_month_after": 136.93,
     "price_change_pct": -3.23,
-    "label": "negative"
+    "predicted_sentiment": "positive",
+    "actual_sentiment": "negative",
+    "prediction_accuracy": "incorrect"
   },
   {
     "bill_number": "50",
@@ -993,7 +1087,9 @@
     "price_month_before": 92.9,
     "price_month_after": 81.34,
     "price_change_pct": -12.44,
-    "label": "negative"
+    "predicted_sentiment": "positive",
+    "actual_sentiment": "negative",
+    "prediction_accuracy": "incorrect"
   },
   {
     "bill_number": "3960",
@@ -1005,7 +1101,9 @@
     "price_month_before": 228.0,
     "price_month_after": 230.77,
     "price_change_pct": 1.22,
-    "label": "neutral"
+    "predicted_sentiment": "positive",
+    "actual_sentiment": "neutral",
+    "prediction_accuracy": "no_effect"
   },
   {
     "bill_number": "3613",
@@ -1017,7 +1115,9 @@
     "price_month_before": 136.82,
     "price_month_after": 130.44,
     "price_change_pct": -4.66,
-    "label": "negative"
+    "predicted_sentiment": "negative",
+    "actual_sentiment": "negative",
+    "prediction_accuracy": "correct"
   },
   {
     "bill_number": "3475",
@@ -1029,7 +1129,9 @@
     "price_month_before": 136.82,
     "price_month_after": 130.44,
     "price_change_pct": -4.66,
-    "label": "negative"
+    "predicted_sentiment": "positive",
+    "actual_sentiment": "negative",
+    "prediction_accuracy": "incorrect"
   },
   {
     "bill_number": "310",
@@ -1041,19 +1143,23 @@
     "price_month_before": 136.82,
     "price_month_after": 130.44,
     "price_change_pct": -4.66,
-    "label": "negative"
+    "predicted_sentiment": "positive",
+    "actual_sentiment": "negative",
+    "prediction_accuracy": "incorrect"
   },
   {
     "bill_number": "2781",
     "bill_type": "S",
     "title": "Good Samaritan Remediation of Abandoned Hardrock Mines Act of 2024",
     "enactment_date": "2024-12-17",
-    "primary_sector": "materials",
-    "etf_ticker": "XLB",
-    "price_month_before": 90.19,
-    "price_month_after": 83.78,
-    "price_change_pct": -7.11,
-    "label": "negative"
+    "primary_sector": "industrials",
+    "etf_ticker": "XLI",
+    "price_month_before": 136.82,
+    "price_month_after": 130.44,
+    "price_change_pct": -4.66,
+    "predicted_sentiment": "positive",
+    "actual_sentiment": "negative",
+    "prediction_accuracy": "incorrect"
   },
   {
     "bill_number": "5863",
@@ -1065,19 +1171,9 @@
     "price_month_before": 214.69,
     "price_month_after": 233.49,
     "price_change_pct": 8.76,
-    "label": "positive"
-  },
-  {
-    "bill_number": "3821",
-    "bill_type": "HR",
-    "title": "Firefighter Cancer Registry Reauthorization Act of 2023",
-    "enactment_date": "2024-12-12",
-    "primary_sector": "healthcare",
-    "etf_ticker": "XLV",
-    "price_month_before": 144.64,
-    "price_month_after": 138.52,
-    "price_change_pct": -4.23,
-    "label": "negative"
+    "predicted_sentiment": "positive",
+    "actual_sentiment": "positive",
+    "prediction_accuracy": "correct"
   },
   {
     "bill_number": "8932",
@@ -1089,7 +1185,9 @@
     "price_month_before": 217.6,
     "price_month_after": 232.57,
     "price_change_pct": 6.88,
-    "label": "positive"
+    "predicted_sentiment": "positive",
+    "actual_sentiment": "positive",
+    "prediction_accuracy": "correct"
   },
   {
     "bill_number": "7438",
@@ -1101,7 +1199,9 @@
     "price_month_before": 92.22,
     "price_month_after": 88.24,
     "price_change_pct": -4.32,
-    "label": "negative"
+    "predicted_sentiment": "positive",
+    "actual_sentiment": "negative",
+    "prediction_accuracy": "incorrect"
   },
   {
     "bill_number": "7218",
@@ -1113,7 +1213,9 @@
     "price_month_before": 146.68,
     "price_month_after": 138.54,
     "price_change_pct": -5.55,
-    "label": "negative"
+    "predicted_sentiment": "positive",
+    "actual_sentiment": "negative",
+    "prediction_accuracy": "incorrect"
   },
   {
     "bill_number": "5536",
@@ -1125,19 +1227,23 @@
     "price_month_before": 141.02,
     "price_month_after": 135.7,
     "price_change_pct": -3.77,
-    "label": "negative"
+    "predicted_sentiment": "positive",
+    "actual_sentiment": "negative",
+    "prediction_accuracy": "incorrect"
   },
   {
     "bill_number": "2950",
     "bill_type": "HR",
     "title": "Coastal Habitat Conservation Act of 2023",
     "enactment_date": "2024-12-11",
-    "primary_sector": "materials",
-    "etf_ticker": "XLB",
-    "price_month_before": 92.22,
-    "price_month_after": 88.24,
-    "price_change_pct": -4.32,
-    "label": "negative"
+    "primary_sector": "consumer",
+    "etf_ticker": "XLY",
+    "price_month_before": 217.6,
+    "price_month_after": 232.57,
+    "price_change_pct": 6.88,
+    "predicted_sentiment": "positive",
+    "actual_sentiment": "positive",
+    "prediction_accuracy": "correct"
   },
   {
     "bill_number": "1505",
@@ -1149,19 +1255,23 @@
     "price_month_before": 198.39,
     "price_month_after": 222.34,
     "price_change_pct": 12.07,
-    "label": "positive"
+    "predicted_sentiment": "positive",
+    "actual_sentiment": "positive",
+    "prediction_accuracy": "correct"
   },
   {
     "bill_number": "807",
     "bill_type": "HR",
     "title": "Working Dog Commemorative Coin Act",
     "enactment_date": "2024-11-25",
-    "primary_sector": "industrials",
-    "etf_ticker": "XLI",
-    "price_month_before": 133.75,
-    "price_month_after": 141.54,
-    "price_change_pct": 5.82,
-    "label": "positive"
+    "primary_sector": "consumer",
+    "etf_ticker": "XLY",
+    "price_month_before": 199.57,
+    "price_month_after": 219.25,
+    "price_change_pct": 9.86,
+    "predicted_sentiment": "positive",
+    "actual_sentiment": "positive",
+    "prediction_accuracy": "correct"
   },
   {
     "bill_number": "6324",
@@ -1173,7 +1283,9 @@
     "price_month_before": 146.2,
     "price_month_after": 143.6,
     "price_change_pct": -1.77,
-    "label": "neutral"
+    "predicted_sentiment": "positive",
+    "actual_sentiment": "neutral",
+    "prediction_accuracy": "no_effect"
   },
   {
     "bill_number": "6249",
@@ -1182,22 +1294,26 @@
     "enactment_date": "2024-11-25",
     "primary_sector": "industrials",
     "etf_ticker": "XLI",
-    "price_month_before": 133.75,
+    "price_month_before": 133.74,
     "price_month_after": 141.54,
     "price_change_pct": 5.82,
-    "label": "positive"
+    "predicted_sentiment": "positive",
+    "actual_sentiment": "positive",
+    "prediction_accuracy": "correct"
   },
   {
     "bill_number": "5861",
     "bill_type": "HR",
     "title": "BRIDGE for Workers Act",
     "enactment_date": "2024-11-25",
-    "primary_sector": "consumer",
-    "etf_ticker": "XLY",
-    "price_month_before": 199.57,
-    "price_month_after": 219.25,
-    "price_change_pct": 9.86,
-    "label": "positive"
+    "primary_sector": "industrials",
+    "etf_ticker": "XLI",
+    "price_month_before": 133.74,
+    "price_month_after": 141.54,
+    "price_change_pct": 5.82,
+    "predicted_sentiment": "positive",
+    "actual_sentiment": "positive",
+    "prediction_accuracy": "correct"
   },
   {
     "bill_number": "5490",
@@ -1209,6 +1325,8 @@
     "price_month_before": 92.89,
     "price_month_after": 92.5,
     "price_change_pct": -0.41,
-    "label": "neutral"
+    "predicted_sentiment": "negative",
+    "actual_sentiment": "neutral",
+    "prediction_accuracy": "no_effect"
   }
 ]
